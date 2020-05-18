@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Tendou Theme" />
+		<meta name="author" content="Kate Hart" />
+		<title>Win10 Theme</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body id="body">
+        <div id="layer1">
+            <div class="clock">
+                <span id="clock-left">00</span><span id="clock-mid">:</span><span id="clock-right">00</span>
+            </div>
+            <div class="date">
+                <!--Saturday, March 18-->
+                <span id="date-weekday">Monday</span> <span id="date-day">January</span> <span id="date-month">1</span>
+            </div>
+        </div>
+		<div id="layer2">
+            <div id="login-card">
+                <figure id="profile-image">
+                    <img src="images/default-avatar.png" alt="" />
+                </figure>
+
+                <h1 id="login-name"></h1>
+
+                <form id="login-form" action="">
+                    <input type="hidden" id="user" />
+                    <div class="pwdiv">
+                        <input id="password" type="password" tabindex="1" placeholder="Password" autofocus />
+                        <input id="submit" type="submit" value="🡢" tabindex="2">
+                    </div>
+                </form>
+                <p id="message" class="cleared"></p>
+            </div>
+
+            <ul id="user-list" tabindex="4"></ul>
+
+            <div id="power-button" tabindex="5">
+                <ul id="power-menu">
+                    <li id="shutdown">Shut down</li>
+                    <li id="reboot">Restart</li>
+                    <li id="sleep">Sleep</li>
+                </ul>
+
+                <svg>
+                    <path
+                            d="m 24.003664,8.7453102 0,15.0771908 m -3.776182,-8.687006 c -6.129933,1.963263 -9.536256,9.713136 -6.837732,15.556801 2.483407,6.054402 10.627619,8.836883 16.310815,5.610424 5.383542,-2.944896 7.481895,-10.590578 4.286282,-15.845929 -1.31907,-2.447783 -3.497769,-4.498425 -6.170129,-5.365982"
+                            style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+
+                </svg>
+            </div>
+
+            <div id="accessibility-button">
+                <svg>
+                    <path d="m10.932 15.14h5.619l-2.8411 2.8411z" fill-rule="evenodd" stroke="#fff" stroke-width="1.4" fill="#fff"/>
+                    <path d="m26.343 18.32v-5.619l2.841 2.8411z" fill-rule="evenodd" stroke="#fff" stroke-width="1.4" fill="#fff"/>
+                    <path d="m13.142 14.574v-10.638h1.4205v10.796z" fill-rule="evenodd" stroke="#fff" stroke-width="1.4" fill="#fff"/>
+                    <path d="m25.877 14.726h-5.5804l-1.3616 1.6071h6.8973z" fill-rule="evenodd" stroke="#fff" stroke-width="1.4" fill="#fff"/>
+                    <path d="m10.966 5.9801c-2.321 0.3336-4.5385 1.3362-6.3356 2.8409" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                    <path d="m3.497 10.016c-1.5328 1.7751-2.5481 3.9867-2.9166 6.3015" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                    <path d="m0.62507 18.028c0.19173 2.3374 1.0576 4.6117 2.4503 6.497" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                    <path d="m4.7205 26.073c1.9002 1.3746 4.191 2.196 6.5288 2.3642" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                    <path d="m12.873 28.706c2.3277-0.28641 4.565-1.2439 6.3922-2.7119" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                    <path d="m20.732 24.654c1.3828-1.8943 2.214-4.1815 2.3924-6.5186" fill-rule="evenodd" stroke="#fff" stroke-width="2.184" fill="#fff"/>
+                </svg>
+            </div>
+
+            <div id="no-internet-button">
+                <svg>
+                    <path id="rect4153" d="m35.994 31.23v1.5859h-0.002v8.6172h0.002v1.6855h3.9102v14.053h1.8633v-6.0664h7.9609v-1.8613h-7.9609v-6.125h3.9922v-1.8613h-0.0039v-8.166h20.229v15.021h1.8613v-15.021h0.002v-1.8613h-31.854zm1.8613 1.8613h6.0391v2.1348h-6.0391v-2.1348zm0 3.9961h2.0176v2.0605h1.8613v-2.0605h2.1602v4.1699h-6.0391v-4.1699zm7.9805 18.254v1.8633h7.4492v-1.8633h-7.4492z" fill="#fff"/>
+                    <circle id="path4151" cx="58.839" cy="50.219" r="9.4643" fill="#d82128"/>
+                    <path id="rect4289" d="m54.938 45.166-1.3164 1.3164 3.8945 3.8926-3.8945 3.8945 1.3164 1.3164 3.8945-3.8945 3.8926 3.8945 1.3164-1.3164l-3.893-3.895 3.893-3.893-1.316-1.316-3.893 3.893-3.894-3.893z" fill="#fff"/>
+                </svg>
+            </div>
+		</div>
+
+		<script src="js/mock/mock.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			/* Initialize the theme. */
+			var tendou = new Tendou();
+			tendou.init();
+        </script>
+        <script src="js/win10.js"></script>
+	</body>
+</html>

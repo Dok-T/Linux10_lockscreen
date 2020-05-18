@@ -1,0 +1,7 @@
+[theme]
+name=Linux10
+version=1.0
+description=Windows 10 like lockscreen
+engine=lightdm-webkit2-greeter
+url=index.html
+session=xfce
