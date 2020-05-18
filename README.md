@@ -13,9 +13,25 @@ The code for the waiting indicator when logging in is based on [this pen](http:/
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg
 
+## Required software:
+  - Windows 10 Fonts (from a windows 10 installation disk for eg, see https://wiki.archlinux.org/index.php/Microsoft_fonts)
+  - LightDM
+  - light-locker & ligh-locker-settings *(AUR)*
+  - lightdm-webkit2-greeter *(AUR)* 
+  - this theme
+ 
+ ## How to install?
+ 
+ 1. Uninstall xscreensaver
+ 2. Install LightDM
+ 3. Enable lightdm.service (or lightdm-plymouth.service if Plymouth is installed)
+ 4. Install webkit2 greeter
+ 5. Install light-locker (and settings app)
+ 6. Edit /etc/lightdm/lightdm.conf to uncomment and fill : **greeter-session=lightdm-webkit2-greeter** and **user-session=xfce**
+ 7. Set theme via /etc/lightdm/lightdm-webkit2-greeter.conf and set **webkit_theme        = linux10**
+ 8. Restart lightDM (sudo systemctl restart lightdm.servce / lightdm-plymouth.service)
+ 
+ And it's done!
 
-
-![Screenshot 1](https://i.imgur.com/pppZKhD.png)
-![Screenshot 2](https://i.imgur.com/qqDhs07.png)
-![Screenshot 3](https://i.imgur.com/ptpt5k0.png)
-![Screenshot 4](https://i.imgur.com/hTt4LfM.png)
+![Screenshot 1](https://i.imgur.com/hBXca14.jpg)
+![Screenshot 2](https://i.imgur.com/2QyFhgY.jpg)
