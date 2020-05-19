@@ -2,7 +2,6 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Windows_logo_-_2012_%28purple%29.svg/88px-Windows_logo_-_2012_%28purple%29.svg.png">
 </p>
-##
 
 # This is a 1080p (1920x1080) patched theme from https://github.com/Xseba360/lightdm-webkit-theme-win10
 ## YOU NEED TO HAVE THE SEGOE UI FONT FROM A WINDOWS 10 INSTALLATION
