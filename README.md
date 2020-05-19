@@ -1,4 +1,4 @@
-![win](https://samirediteur.com/SamData/Products/i-samir/Images/LogoWindows.png)
+<center>![win](https://samirediteur.com/SamData/Products/i-samir/Images/LogoWindows.png)</center>
 # This is a 1080p (1920x1080) patched theme from https://github.com/Xseba360/lightdm-webkit-theme-win10
 ## YOU NEED TO HAVE THE SEGOE UI FONT FROM A WINDOWS 10 INSTALLATION
 
